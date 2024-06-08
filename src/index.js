@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors());
 // Define the folder where image files will be stored
 // const uploadFolder = path.join(__dirname, '../httpdocs/Images/new_products/');
-const uploadFolder = `../httpdocs/Images/new_products/`
+const uploadFolder = `../uploads/`
 
 // Create the upload folder if it doesn't exist
 fs.ensureDirSync(uploadFolder);
